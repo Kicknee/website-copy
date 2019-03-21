@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
+/*source: http://bnpconsulting.nyc/  */
+
+
+body {
+    margin: 0;
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(219, 219, 219)
+}
+
+#container_1 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 35px 120px 382px;
+    background-color: white;
+    
+    
+}
+
+
+
+.lo  {
+    height: 100%;
+    width: 100%;
+    object-fit: inherit;
+}
+
+
+
+
+#header {
+    grid-column: 1/13;
+    grid-row: 1/2;
+    background-color: #0b6ec7;
+ 
+    
+}
+
+.logo {
+    grid-column: 2/ span 2;
+    grid-row: 2/3;
+    
+}
+
+.a {
+    grid-column: 4/ span 1;
+    grid-row: 2/3;
+}
+
+.b {
+    grid-column: 5/ span 1;
+    grid-row: 2/3;
+}
+
+.c {
+    grid-column: 6/ span 2;
+    grid-row: 2/3;
+}
+
+.d {
+    grid-column: 8/ span 1;
+    grid-row: 2/3;
+}
+
+.e {
+    grid-column: 9/ span 1;
+    grid-row: 2/3;
+}
+
+.f {
+    grid-column: 10/ span 1;
+    grid-row: 2/3;
+}
+
+.g {
+    grid-column: 11/ span 1;
+    grid-row: 2/3;
+}
+
+.info {
+    color: white;
+    line-height: 35px;
+    margin-left: calc(100vw/12);
+}
+#container_2 {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows:  auto;
+    margin-top: -100px;
+}
+
+
+.h {
+    grid-column: 2/ span 2;
+    grid-row: 1/ span 1;
+}
+
+.i {
+    grid-column: 4/ span 2;
+    grid-row: 1/ span 1;
+}
+
+.j {
+    grid-column: 6/ span 2;
+    grid-row: 1/ span 1;
+}
+
+.tiles_1 {
+    margin: 10px;
+    background-color: #1d83b3;;
+    color: white;
+    z-index: 1;
+    
+    
+}
+.img_tiles_1 {
+    
+    width: 100%;
+    object-fit: cover;
+
+}
+h2 {
+    font-size: 30px;
+    font-weight: normal; 
+}
+
+p {
+    font-size: 14px;
+}
+
+.stage {
+    padding: 15px;  
+    
+    
+    
+}
+
+#main {
+    grid-column: 1/ span 13;
+    grid-row: 3/4;
+   
+    
+}
+
+
+.bac {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.options {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    
+    color: #003161;
+    
+}
+
+.options:hover {
+    background-color: #1d83b3;
+    color: white;
+}
+
+
+
+#container_3 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows:   auto;
+    grid-row-gap: 100px;
+   
+}
+
+.tiles_2 {
+    margin: 10px;
+    background-color: #1d83b3;;
+    color: white;
+    text-align: center;
+
+}
+
+.tiles_2:hover {
+    
+    background-color: rgb(149, 154, 166);;
+   
+}
+
+h5 {
+    font-size: 18px;
+}
+.img_tiles_2 {
+    box-sizing: border-box;
+    width: 100%;
+    object-fit: cover;
+    padding: 10px;
+
+}
+
+.stage_2 {
+    padding: 15px;  
+    padding-top: 0;
+    
+    
+}
+
+.bottom {
+    margin: 5px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    margin-right: 60px;
+    margin-left: 60px;
+    
+}
+
+.bottom:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.k {
+    grid-column: 2/ span 1;
+    grid-row: 1/ span 1;
+}
+
+.l {
+    grid-column: 3/ span 1;
+    grid-row: 1/ span 1;
+}
+
+.m {
+    grid-column: 4/ span 1;
+    grid-row: 1/ span 1;
+}
+
+.n {
+    grid-column: 5/ span 1;
+    grid-row: 1/ span 1;
+}
+
+#container_4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 340px;
+    margin-right: 10px;
+    margin-left: 10px;
+    grid-column: 2/ span 4;
+    grid-row: 2/ span 1;
+}
+
+.o {
+    grid-column: 1/ span 1;
+   
+}
+
+.p {
+    grid-column: 2/ span 1;
+    
+}
+
+.tiles_3 {
+    margin: 10px;
+    background-color: #1d83b3;;
+    color: white;
+    
+
+}
+
+.img_tiles_3 {
+    box-sizing: border-box;
+    width: 100%;
+    height: 70%;
+   
+    padding: 0 10px 0px;
+
+}
+
+.stage_3 {
+    
+    padding: 0 15px 0px;  
+    
+    
+    
+}
+
+
+#container_5 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows:  auto 550px;
+    grid-column-gap: 80px;
+    margin-top: 50px;
+    
+    
+    
+
+}
+
+#title_5 {
+    padding: 10px;
+    grid-column: 2/span 4;
+    grid-row: 1/ 1;
+    color: #1d83b3;
+    font-size: 30px;
+    
+    
+}
+
+h3 {
+    
+    
+    font-weight: 100;
+}
+
+.r {
+   margin-left: -30px;
+   padding-left: 30px;
+    background-color: #ededed;
+    grid-column: 2/ span 2;
+    grid-row: 2/ span 1;
+    z-index: 1;
+}
+.min1 {
+    grid-column: 3/ span 2;
+    grid-row: 2/ span 1;
+    background-color: #ededed;
+}
+.s {
+    margin-right: -30px;
+  
+    background-color: #ededed;
+    z-index: 1;
+    grid-column: 4/ span 2;
+    grid-row: 2/ span 1;
+}
+
+.img_tiles_4 {
+    box-sizing: border-box;
+    max-width: 100%;
+    
+   
+    padding: 10 10px 0px;
+
+}
+
+.tiles_4 h3 {
+    font-size: 24px;
+    color: #404040;
+    font-weight: 600;
+}
+
+.tiles_4 {
+    text-align: left;
+}
+
+.p1 {
+    line-height: 25px;
+    
+}
+
+
+#container_6 {
+    height: 240px;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+    background-color: white;
+}
+
+#container_6 img {
+    max-height: 100%;
+    object-fit: cover;
+}
+
+#container_7 {
+    box-sizing: border-box;
+    background-color: rgb(0, 134, 181);
+    padding: 40px 20px 3px;
+    
+}
+
+#container_7 h1 {
+  
+    font-size: 36px;
+    color: white;
+    margin-left: 25vw;
+}
+
+
+#container_8 {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 250px;
+    background-image: url("../img/dd.jpg");
+    
+    background-repeat: no-repeat;
+    color: white;
+    padding: 30px 0 50px;
+    font-size: 16px;
+
+   
+
+}
+
+#container_8 img {
+    width: 60%;
+    grid-column: 2/ span 2;
+    grid-row: 1/1;
+    object-fit: cover;
+    justify-self: end;
+
+    
+}
+
+.x {
+    grid-column: 5/ span 2;
+    grid-row: 1/1;
+}
+
+.y {
+    grid-column: 8/ span 2;
+    grid-row: 1/1;
+}
+
+#container_9 {
+    background-color: rgb(67, 71, 77);
+    height: 60px;
+    padding: 10px;
+    color: #8c8e91;
+}
+
+#container_9 p {
+    margin-top: 20px;
+    margin-left: calc(100vw/7);
+    
+}
